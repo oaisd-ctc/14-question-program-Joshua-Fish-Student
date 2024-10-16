@@ -4,7 +4,7 @@
 public class Program
 {
     public static string name;
-    public static int age;
+    public static string age;
     public static string eyeColor;
     public static string hairColor;
     public static string shoeSize;
@@ -65,8 +65,8 @@ public class Program
         Console.WriteLine("What is your dream job?");
         dreamJob = Console.ReadLine();
     }
-    public static void CalculateAgeIn5Years(int age){
-        ageIn5Years = age + 5;
+    public static void CalculateAgeIn5Years(string age){
+        ageIn5Years = int.Parse(age) + 5;
     }
     public static void AskNumberOfSiblings(){
         Console.WriteLine("How many siblings do you have?");
