@@ -23,7 +23,7 @@ public class Program
     }
     public static void AskAge(){
         Console.WriteLine("What is your age?");
-        age = int.Parse(Console.ReadLine());
+        age = Console.ReadLine();
     }
     public static void AskEyeColor(){
         Console.WriteLine("What is your eye color?");
